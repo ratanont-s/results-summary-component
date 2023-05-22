@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reseter.css/2.0.0/reseter.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+  <main class="main">
+    <div class="container">
+      <div class="card">
+        <div class="card__header">
+          <div class="result">
+            <h5 class="result__title">Your Result</h5>
+            <div class="result__circle">
+              <strong>76</strong>
+              <small>of 100</small>
+            </div>
+          </div>
+
+          <p class="card__title">Great</p>
+          <p class="card__text">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+        <div class="card__body">
+          <h5 class="card__subtitle">Summary</h5>
+
+          <ul class="list">
+            <li class="list__item list__item--red">
+              <span class="list__title"><img src="assets/images/icon-reaction.svg" alt="Reaction" />Reaction</span>
+              <span class="list__value"><b>80</b> / 100</span>
+            </li>
+
+            <li class="list__item list__item--yellow">
+              <span class="list__title"><img src="assets/images/icon-memory.svg" alt="Memory" />Memory</span>
+              <span class="list__value"><b>92</b> / 100</span>
+            </li>
+
+            <li class="list__item list__item--teal">
+              <span class="list__title"><img src="assets/images/icon-verbal.svg" alt="Verbal" />Verbal</span>
+              <span class="list__value"><b>61</b> / 100</span>
+            </li>
+
+            <li class="list__item list__item--blue">
+              <span class="list__title"><img src="assets/images/icon-visual.svg" alt="Visual" />Visual</span>
+              <span class="list__value"><b>72</b> / 100</span>
+            </li>
+          </ul>
+
+          <button class="btn btn--full">Continue</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  </div>
+</body>
+
+</html>
